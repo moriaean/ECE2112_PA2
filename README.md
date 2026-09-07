@@ -83,5 +83,4 @@ The objectives of this laboratory activity are to:
 ## V. How to Run
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/moriaean/ECE2112_PA2.git](https://github.com/moriaean/ECE2112_PA2.git)
-   cd ECE2112_PA2
+   git clone https://github.com/moriaean/ECE2112_PA2.git
