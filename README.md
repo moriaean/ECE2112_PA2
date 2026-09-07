@@ -35,7 +35,7 @@ The objectives of this laboratory activity are to:
   1. Set the random seed via `np.random.seed(2112)` to guarantee exact numerical reproducibility across test environments.
   2. Generate a $5 \times 5$ integer matrix `X` using `np.random.randint(10, 101, size=(5, 5))`.
   3. Calculate scalar array statistics `X_mean = np.mean(X)` ($46.36$) and `X_std = np.std(X)` ($25.864$).
-  4. Perform element-wise matrix normalization `X_normalized = (X - X_mean) / X_std` using NumPy broadcasting.
+  4. Perform element-wise matrix normalization `X_normalized = (X - X_mean) / X_std`.
   5. Conduct verification checks by calculating `np.mean(X_normalized)` ($0.0$) and `np.std(X_normalized)` ($1.0$).
   6. Export the normalized array to disk via `np.save("X_normalized.npy", X_normalized)`.
 * **Example Output / Check:**
